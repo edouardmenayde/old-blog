@@ -1,0 +1,48 @@
+nav:
+  Home: /
+  Writing: /archives/
+  Projects: http://github.com/edouardmenayde
+
+projects_url: http://github.com/edouardmenayde
+
+customize:
+    gravatar:
+        email: edouard.menayde@gmail.com
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        url: /images/logo.png
+        gravatar: true
+    favicon:
+      # eg. generate with http://realfavicongenerator.net/
+      desktop:
+        url: /images/favicon.ico
+        gravatar: true
+      android:
+        url: /images/favicon-192x192.png
+        gravator: true
+      apple:
+        url: /images/apple-touch-icon.png
+        gravator: true
+    social_links:
+        github: https://github.com/edouardmenayde
+        linkedin: https://www.linkedin.com/in/edouard-menayde-b17626135
+    show_all_posts: false
+    post_count: 5
+    highlight: rainbow
+
+# RSS
+rss:
+
+# Plugins
+plugins:
+    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
