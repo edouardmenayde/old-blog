@@ -10,7 +10,7 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.jpg
+        url: /images/logo-min.jpg
     favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
