@@ -1,12 +1,13 @@
 ---
 title: Dead links
-date: 2017-09-17 00:00:00
 tags:
-- dev
-- websites
-- reflections
+  - dev
+  - websites
+  - reflections
 photos:
-- /images/dead-links.png
+  - /images/dead-links.png
+abbrlink: 36019
+date: 2017-09-17 00:00:00
 ---
 
 It's been some times i'm creating websites and one recurring problem I didn't bother finding a good solution for is *dead links*.

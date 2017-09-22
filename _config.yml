@@ -10,11 +10,16 @@ author: Edouard Menayde
 language: en
 timezone: Europe/Paris
 
+# abbrlink config
+abbrlink:
+  alg: crc16
+  rep: dec
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.edouardmenayde.fr
 root: /
-permalink: :id/:title/
+permalink: :abbrlink/:title/
 permalink_defaults:
 
 # Directory
