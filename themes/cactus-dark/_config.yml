@@ -11,14 +11,6 @@ customize:
         width: 50
         height: 50
         url: /images/logo-min.jpg
-    favicon:
-      # eg. generate with http://realfavicongenerator.net/
-      desktop:
-        url: /images/favicon.ico
-      android:
-        url: /images/favicon-192x192.png
-      apple:
-        url: /images/apple-touch-icon.png
     social_links:
         github: https://github.com/edouardmenayde
         linkedin: https://www.linkedin.com/in/edouard-menayde-b17626135

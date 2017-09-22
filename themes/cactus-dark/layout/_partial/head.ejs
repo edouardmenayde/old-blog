@@ -13,17 +13,13 @@
         google_plus: theme.miscellaneous.open_graph.google_plus
     }) %>
     <%- meta(page) %>
-    <% if (theme.customize.favicon) { %>
-    <% if (theme.customize.favicon.desktop) { %>
-    <link rel="shortcut icon" href="<%= url_for(theme.customize.favicon.desktop.url) %>">
-    <% } %>
-    <% if (theme.customize.favicon.android) { %>
-    <link rel="icon" type="image/png" href="<%= url_for(theme.customize.favicon.android.url) %>" sizes="192x192">
-    <% } %>
-    <% if (theme.customize.favicon.apple) { %>
-    <link rel="apple-touch-icon" sizes="180x180" href="<%= url_for(theme.customize.favicon.apple.url) %>">
-    <% } %>
-    <% } %>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#1d1f21">
+
     <!-- title -->
     <title><%= page.title ? page.title : config.title %></title>
     <!-- styles -->
