@@ -10,7 +10,7 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/logo.jpg
     favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
@@ -36,6 +36,7 @@ plugins:
 # Miscellaneous
 miscellaneous:
     open_graph: # see http://ogp.me
+        image: /images/logo.jpg
         fb_app_id:
         fb_admins:
         twitter_id:
